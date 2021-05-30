@@ -1,0 +1,26 @@
+:root {
+    --navbar-height: 10vh;
+    --navbar-padding: 10px;
+	--footer-height: 8vh;
+    --footer-padding: 10px;
+}
+
+html {
+    font-family: 'Electrolize', sans-serif;
+	color: #c3c3c3;
+}
+
+
+
+@media screen and (min-width:601px) {
+    :root{
+        --global-horizontal-padding: 6vw
+    }
+}
+
+@media screen and (max-width:600px) {
+    :root{
+        --global-horizontal-padding: 2vw
+    }
+}
+

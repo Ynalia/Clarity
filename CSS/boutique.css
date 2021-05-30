@@ -1,0 +1,25 @@
+#Fond {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 202vh;
+}
+
+main {
+    margin-left: 10.8vw;
+    margin-right: 10.8vw;
+    min-height: 201vh;
+}
+
+main > section > a > img {
+    width: 78vw;
+    margin-top: 19vh;
+}
+
+#Masque {
+    margin-top: 10vw;
+}
+
+#Manche {
+    margin-top: 10vw;
+}

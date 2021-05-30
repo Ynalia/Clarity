@@ -1,0 +1,25 @@
+/* Footer */
+body > footer {
+	z-index: 9;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	height: var( --footer-height );
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 var( --global-horizontal-padding );
+	box-sizing: border-box;
+	background-color: #141418;
+	font-size: 2vw;
+}
+body > footer a {
+	text-decoration: none;
+	color: #c3c3c3;
+}
+body > footer > section  {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 35vw;
+}

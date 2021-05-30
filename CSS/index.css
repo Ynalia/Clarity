@@ -1,0 +1,84 @@
+h2 {
+	font-size: 4.5vw;
+	margin-left: 34.5vw;
+	margin-top: 2vh;
+}
+
+h3 {
+	font-size: 3.5vw;
+	margin-left: 17.5vw;
+	margin-top: 2vh;
+}
+
+main > section {
+	overflow: hidden;
+}
+
+main > section > div {
+	display: flex;
+	flex-direction: row;
+	margin: 5vh 0 0 8.3vw;
+	justify-content: space-between;
+	width: 200%;
+	transition: transform 300ms ease-out;
+}
+
+main > section > div > section > section {
+	margin-top: 8vh;
+	display: flex;
+	flex-direction: row;
+}
+
+#Fleche_droite {
+	margin-left: 81vw;
+}
+
+#Ligne_droite {
+	margin-top: 1.5vh;
+	margin-left: 53.5vw;
+	margin-bottom: 10.5vh;
+}
+
+#Section1 p {
+	margin-top: 6vh;
+	font-size: 2.8vh;
+	line-height: 3.4vh;
+	margin-left: 6vw;
+	width: 35vw;
+	text-align: justify;
+}
+
+#Section2 {
+	display: flex;
+	flex-direction: column;
+}
+
+#Section2 h3 {
+	margin-top: 2.7vh;
+	margin-left: 20vw;
+}
+
+#Section2 p {
+	margin-top: 1vw;
+	font-size: 2.8vh;
+	line-height: 3.4vh;
+	width: 30vw;
+	margin-right: 6vw;
+	text-align: justify;
+}
+
+#Section2 > section {
+	margin-top: 14vh;
+}
+
+#Fleche_gauche {
+	margin-top: 2vh;
+	transform: rotate(180deg);
+	height: 30px;
+	width: 30px;
+}
+
+#Ligne_gauche {
+	margin-top: 1.5vh;
+	width: 426px;
+}

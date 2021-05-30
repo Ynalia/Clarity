@@ -1,0 +1,66 @@
+main > img {
+	position: absolute;
+	z-index: -10;
+	width: 100vw;
+	height: 82vh;
+}
+
+body {
+    padding-top: var( --navbar-height);
+	height: 100%;
+}
+
+body > header > nav {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	height: var( --navbar-height );
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 var( --global-horizontal-padding );
+	box-sizing: border-box;
+	background-color: #141418;
+}
+
+/* Menu */
+body > header > nav > img {
+	height: 5vh;
+    padding: var( --navbar-padding ) 0;
+}
+body > header > nav > div {
+	display: flex;
+	flex-direction: row;
+}
+body > header > nav > div > span {
+	margin-left: 1.2vw;
+	font-size: 2.5vw;
+}
+
+/* Logo */
+body > header > nav > a {
+	padding: var( --navbar-padding ) 0;
+	box-sizing: border-box;
+}
+body > header > nav > a > img {
+	position: absolute;
+	left: 48%;
+	top: 1vh;
+	height: 8vh;
+}
+
+/* Boutique & Panier */
+body > header > nav > ul {
+	display: flex;
+	flex-direction: row;
+	font-size: 2.5vw;
+	justify-content: space-between;
+	width: 23vw;
+}
+body > header > nav > ul > li > a {
+	text-decoration: none;
+	color: #c3c3c3;
+}

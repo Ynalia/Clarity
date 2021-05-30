@@ -1,0 +1,146 @@
+main {
+    min-height: 82vh ;
+}
+
+main > div {
+    padding: 70px 90px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 67vh;
+}
+
+main > div > div:first-of-type {  /* Pour le JS */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+main > div > div > article {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #c3c3c3;
+    width: 55vw;
+    border: 4px solid #1765AA;
+    border-radius: 10px;
+}
+
+main > div > div > article > img {
+    width: 13vw;
+}
+
+main > div > div > article > div {
+    margin-left: 3vw;
+    color: #141418;
+}
+
+main > div > div > article > div > table {
+    width: 35vw;
+    text-align: center;
+    background-color: white;
+    border: 5px solid #1765AA;
+}
+
+main > div > div > article > div > table > thead > tr {
+    font-size: 3.5vh;
+}
+
+main > div > div > article > div > table > thead > tr > th {
+    border: 4px solid #1765AA;
+    width: 10vw;
+    padding: 1vh;
+}
+
+main > div > div > article > div > table > tbody > tr {
+    font-size: 2vh;
+}
+
+main > div > div > article > div > table > tbody > tr > td {
+    border: 4px solid #1765AA;
+    padding: 1vh;
+}
+
+main > div > div > article > div > div {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 2vh;
+}
+
+main > div > div > article > div > div > p:first-of-type {
+    margin-top: 2.3vh;
+    margin-right: 4vw;
+}
+
+main > div > div > article > div > div > p:last-of-type {
+    margin-top: 1vh;
+    border: 4px solid #1765AA;
+    padding: 1vh;
+    background-color: white;
+}
+
+main > div > div > article > button {
+    font-size: 3vh;
+    width: 3vw;
+    height: 3vw;
+    color: #141418;
+    background-color: white;
+    margin-left: 0.5vw;
+    border-radius: 100px;
+    border: 4px solid #1765AA;
+    position: absolute;
+    top: 0.8vh;
+    right: 0.8vh;
+}
+
+
+
+
+main > div > div > form {
+    padding-top: 1.5vh;
+    background-color: #c3c3c3;
+    border-radius: 10px;
+    height: 66vh;
+}
+
+main > div > div > form > div {
+    margin-left: 1.8vw;
+}
+
+main > div > div > form > div > label {
+    font-size: 2.1vh;
+    color: #141418;
+}
+
+main > div > div > form > div > input {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 2vh;
+    margin-bottom: 1.7vh;
+    margin-top: 0.6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25vw;
+}
+
+main > div > div > form > div > select {
+    margin-bottom: 1.6vh;
+    margin-top: 0.6vh;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 2vh;
+    width: 15vw;
+}
+
+main > div > div > form > p {
+    font-size: 1.5vh;
+    color: #141418;
+    margin-left: 5.2vw;
+}
+
+input[type="submit" i]{
+    width: 25.5vw;
+}
